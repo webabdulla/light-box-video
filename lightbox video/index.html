@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome 5 link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="light-box">
+                        <a href="https://www.youtube.com/watch?v=nYb4FUdlLZE" target="_blank" class="open-yt-lightbox">
+                        <!--  YouTube video thumbnail. It could also be text or whatever you want.  -->
+                        <img style="width:100%;" src="img/pexels-sebastiaan-stam-1482476.jpg"/>
+                        </a>
+                        <!-- Lightbox wrapper, which also provides the dark backdrop. -->
+                        <div class="video-container-wrapper lightbox-backdrop">
+                            <div class="sizewrapper box">
+                                <!--  Close button  -->
+                                <div class="close shadowed">X</div>
+                                <!--  Wraps the iframe and helps vertically center  -->
+                                <div id="videowrapper" class="shadowed">
+                                <!--  The iframe with the YouTube video  -->
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/nYb4FUdlLZE?enablejsapi=1" frameborder="0" id="yt-iframe" allowfullscreen></iframe>
+                                </div>
+                                <div class="go-to-yt shadowed">
+                                <a href="https://www.youtube.com/watch?v=nYb4FUdlLZE" target="_blank">Video not loading? Watch on Youtube ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="img-2">
+                        <div class="img-2-inner">
+                            <img src="img/pexels-sebastian-voortman-715546.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
